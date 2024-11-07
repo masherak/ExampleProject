@@ -1,0 +1,22 @@
+@ExampleProject_HostAddress = http://localhost:5000
+
+POST {{ExampleProject_HostAddress}}/order
+Accept: application/json
+Content-Type: application/json
+
+[
+  {
+    "productId": 1,
+    "quantity": 1
+  },
+  {
+    "productId": 1,
+    "quantity": 2
+  },
+  {
+    "productId": 2,
+    "quantity": 3
+  }
+]
+
+###
